@@ -21,3 +21,4 @@ C:\Users\mrnvk\Documents\GitHub\StudentManagement-WF-\Project WF\StudentManageme
 C:\Users\mrnvk\Documents\GitHub\StudentManagement-WF-\Project WF\StudentManagement\StudentManagement\obj\Debug\StudentManagement.exe
 C:\Users\mrnvk\Documents\GitHub\StudentManagement-WF-\Project WF\StudentManagement\StudentManagement\obj\Debug\StudentManagement.pdb
 C:\Users\mrnvk\Documents\GitHub\StudentManagement-WF-\Project WF\StudentManagement\StudentManagement\obj\Debug\StudentManagement.Khoa.resources
+C:\Users\mrnvk\Documents\GitHub\StudentManagement-WF-\Project WF\StudentManagement\StudentManagement\obj\Debug\StudentManagement.Lop.resources
