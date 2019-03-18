@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace StudentManagement
 {
-    public partial class Home : Form
+    public partial class frmDiemDanh : Form
     {
-        public Home()
+        public frmDiemDanh()
         {
             InitializeComponent();
-        }
-
-        private void hệThốngToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

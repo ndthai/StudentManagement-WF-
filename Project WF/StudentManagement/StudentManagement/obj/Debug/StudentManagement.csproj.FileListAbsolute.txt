@@ -8,4 +8,9 @@ D:\thai\Project WF .net\Project WF\StudentManagement\StudentManagement\obj\Debug
 D:\thai\Project WF .net\Project WF\StudentManagement\StudentManagement\obj\Debug\StudentManagement.csproj.CoreCompileInputs.cache
 D:\thai\Project WF .net\Project WF\StudentManagement\StudentManagement\obj\Debug\StudentManagement.exe
 D:\thai\Project WF .net\Project WF\StudentManagement\StudentManagement\obj\Debug\StudentManagement.pdb
-D:\thai\Project WF .net\Project WF\StudentManagement\StudentManagement\obj\Debug\StudentManagement.Home.resources
+D:\thai\Project WF .net\Project WF\StudentManagement\StudentManagement\obj\Debug\StudentManagement.frmHome.resources
+D:\thai\Project WF .net\Project WF\StudentManagement\StudentManagement\obj\Debug\StudentManagement.frmStudent.resources
+D:\thai\Project WF .net\Project WF\StudentManagement\StudentManagement\obj\Debug\StudentManagement.frmDiemDanh.resources
+D:\thai\Project WF .net\Project WF\StudentManagement\StudentManagement\obj\Debug\StudentManagement.frmHeDaoTao.resources
+D:\thai\Project WF .net\Project WF\StudentManagement\StudentManagement\obj\Debug\StudentManagement.frmKhoa.resources
+D:\thai\Project WF .net\Project WF\StudentManagement\StudentManagement\obj\Debug\StudentManagement.frmLopHoc.resources

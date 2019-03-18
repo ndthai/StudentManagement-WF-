@@ -39,5 +39,20 @@ namespace StudentManagement
         {
 
         }
+
+        private void frmLogin_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            if (txtEmail.Text =="admin" && txtPassword.Text =="1234")
+            {
+                frmHome fHome = new frmHome();
+                fHome.Show();
+                this.Hide();
+            }
+        }
     }
 }
