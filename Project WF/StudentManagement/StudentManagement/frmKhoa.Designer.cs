@@ -43,11 +43,18 @@
             this.label3 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.dgvKhoa = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvKhoa)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.dgvKhoa);
             this.groupBox2.Location = new System.Drawing.Point(384, 61);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(797, 521);
@@ -208,6 +215,48 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Mã khoa";
             // 
+            // dgvKhoa
+            // 
+            this.dgvKhoa.AllowUserToAddRows = false;
+            this.dgvKhoa.AllowUserToDeleteRows = false;
+            this.dgvKhoa.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvKhoa.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvKhoa.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2,
+            this.Column3});
+            this.dgvKhoa.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvKhoa.Location = new System.Drawing.Point(3, 22);
+            this.dgvKhoa.MultiSelect = false;
+            this.dgvKhoa.Name = "dgvKhoa";
+            this.dgvKhoa.ReadOnly = true;
+            this.dgvKhoa.RowTemplate.Height = 28;
+            this.dgvKhoa.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvKhoa.Size = new System.Drawing.Size(791, 496);
+            this.dgvKhoa.TabIndex = 0;
+            this.dgvKhoa.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvKhoa_CellContentClick);
+            // 
+            // Column1
+            // 
+            this.Column1.DataPropertyName = "maKhoa";
+            this.Column1.HeaderText = "Mã khoa";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            // 
+            // Column2
+            // 
+            this.Column2.DataPropertyName = "tenKhoa";
+            this.Column2.HeaderText = "Tên Khoa";
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
+            // 
+            // Column3
+            // 
+            this.Column3.DataPropertyName = "trangThai";
+            this.Column3.HeaderText = "Trạng thái";
+            this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
+            // 
             // frmKhoa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -221,8 +270,11 @@
             this.Name = "frmKhoa";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmKhoa";
+            this.Load += new System.EventHandler(this.frmKhoa_Load);
+            this.groupBox2.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvKhoa)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -244,5 +296,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.DataGridView dgvKhoa;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
     }
 }

@@ -74,7 +74,7 @@
             "c1707U"});
             this.comboBox1.Location = new System.Drawing.Point(27, 91);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(337, 28);
+            this.comboBox1.Size = new System.Drawing.Size(330, 28);
             this.comboBox1.TabIndex = 2;
             // 
             // grbThongTin
@@ -89,7 +89,7 @@
             this.grbThongTin.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.grbThongTin.Location = new System.Drawing.Point(12, 66);
             this.grbThongTin.Name = "grbThongTin";
-            this.grbThongTin.Size = new System.Drawing.Size(394, 583);
+            this.grbThongTin.Size = new System.Drawing.Size(363, 583);
             this.grbThongTin.TabIndex = 3;
             this.grbThongTin.TabStop = false;
             this.grbThongTin.Text = "Thông tin";
@@ -98,7 +98,7 @@
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(239, 271);
+            this.button1.Location = new System.Drawing.Point(232, 271);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(125, 48);
             this.button1.TabIndex = 5;
@@ -111,7 +111,7 @@
             this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.dateTimePicker1.Location = new System.Drawing.Point(27, 174);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(337, 26);
+            this.dateTimePicker1.Size = new System.Drawing.Size(330, 26);
             this.dateTimePicker1.TabIndex = 4;
             // 
             // label3
@@ -129,9 +129,9 @@
             this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox1.Location = new System.Drawing.Point(412, 66);
+            this.groupBox1.Location = new System.Drawing.Point(381, 66);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(786, 583);
+            this.groupBox1.Size = new System.Drawing.Size(817, 583);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Bảng điểm danh";
