@@ -17,6 +17,7 @@ namespace StudentManagement
             InitializeComponent();
             frmStudent frmStu = new frmStudent();
             loadMdiChild(frmStu);
+            toolStripStatusLabel2.Text = "GV: " + Properties.Settings.Default.tenGV;
 
         }
 
@@ -27,7 +28,7 @@ namespace StudentManagement
 
         private void Home_Load(object sender, EventArgs e)
         {
-
+            
         }
         private void loadMdiChild(Form frm)
         {
@@ -80,6 +81,24 @@ namespace StudentManagement
         private void frmHome_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void hệĐàoTạoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmHeDaoTao hdt = new frmHeDaoTao();
+            hdt.Show();
+        }
+
+        private void khoaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmKhoa k = new frmKhoa();
+            k.Show();
+        }
+
+        private void lớpHọcToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmLopHoc lh = new frmLopHoc();
+            loadMdiChild(lh);
         }
     }
 }

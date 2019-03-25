@@ -10,5 +10,8 @@
 &lt;/SerializableConnectionString&gt;</DesignTimeValue>
       <Value Profile="(Default)">Data Source=LAPTOPOFTHAI\NDT_SQL14;Initial Catalog=StudentManagement;Persist Security Info=True;User ID=sa;Password=1234$</Value>
     </Setting>
+    <Setting Name="tenGV" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
   </Settings>
 </SettingsFile>

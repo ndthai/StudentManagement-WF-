@@ -33,5 +33,17 @@ namespace StudentManagement.Properties {
                 return ((string)(this["StudentManagementConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string tenGV {
+            get {
+                return ((string)(this["tenGV"]));
+            }
+            set {
+                this["tenGV"] = value;
+            }
+        }
     }
 }

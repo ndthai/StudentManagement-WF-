@@ -151,5 +151,10 @@
   <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Image\1442204566-4.jpg" />
+    <Content Include="Image\356d4d0c56a206d59de4c2eb4bbd9a7c.jpg" />
+    <Content Include="Image\50273969_303663813612121_814790055221526528_o.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

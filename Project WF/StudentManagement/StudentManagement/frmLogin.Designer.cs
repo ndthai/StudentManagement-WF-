@@ -49,7 +49,7 @@
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(375, 38);
             this.txtEmail.TabIndex = 1;
-            this.txtEmail.Text = "admin";
+            this.txtEmail.Text = "thaind@gmail.com";
             // 
             // groupBox1
             // 
@@ -84,7 +84,7 @@
             this.txtPassword.PasswordChar = '•';
             this.txtPassword.Size = new System.Drawing.Size(375, 38);
             this.txtPassword.TabIndex = 1;
-            this.txtPassword.Text = "1234";
+            this.txtPassword.Text = "123456";
             // 
             // btnLogin
             // 
