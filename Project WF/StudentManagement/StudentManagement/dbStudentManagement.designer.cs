@@ -2440,15 +2440,17 @@ namespace StudentManagement
 		
 		private string _diaChi;
 		
-		private System.Nullable<int> _soCMT;
+		private string _soCMT;
 		
-		private System.Nullable<int> _sDT;
+		private string _sDT;
 		
 		private string _email;
 		
 		private System.Nullable<int> _trangThai;
 		
 		private System.Nullable<int> _maLopHoc;
+		
+		private string _anh;
 		
 		private EntitySet<Diem> _Diems;
 		
@@ -2472,9 +2474,9 @@ namespace StudentManagement
     partial void OnsinhNhatChanged();
     partial void OndiaChiChanging(string value);
     partial void OndiaChiChanged();
-    partial void OnsoCMTChanging(System.Nullable<int> value);
+    partial void OnsoCMTChanging(string value);
     partial void OnsoCMTChanged();
-    partial void OnsDTChanging(System.Nullable<int> value);
+    partial void OnsDTChanging(string value);
     partial void OnsDTChanged();
     partial void OnemailChanging(string value);
     partial void OnemailChanged();
@@ -2482,6 +2484,8 @@ namespace StudentManagement
     partial void OntrangThaiChanged();
     partial void OnmaLopHocChanging(System.Nullable<int> value);
     partial void OnmaLopHocChanged();
+    partial void OnanhChanging(string value);
+    partial void OnanhChanged();
     #endregion
 		
 		public SinhVien()
@@ -2612,8 +2616,8 @@ namespace StudentManagement
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_soCMT", DbType="Int")]
-		public System.Nullable<int> soCMT
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_soCMT", DbType="NVarChar(15)")]
+		public string soCMT
 		{
 			get
 			{
@@ -2632,8 +2636,8 @@ namespace StudentManagement
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_sDT", DbType="Int")]
-		public System.Nullable<int> sDT
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_sDT", DbType="NVarChar(15)")]
+		public string sDT
 		{
 			get
 			{
@@ -2712,6 +2716,26 @@ namespace StudentManagement
 					this._maLopHoc = value;
 					this.SendPropertyChanged("maLopHoc");
 					this.OnmaLopHocChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_anh", DbType="NVarChar(100)")]
+		public string anh
+		{
+			get
+			{
+				return this._anh;
+			}
+			set
+			{
+				if ((this._anh != value))
+				{
+					this.OnanhChanging(value);
+					this.SendPropertyChanging();
+					this._anh = value;
+					this.SendPropertyChanged("anh");
+					this.OnanhChanged();
 				}
 			}
 		}

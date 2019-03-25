@@ -133,22 +133,6 @@
         i59PROVjdU8mOvlYrBythoDGuSiOfM6Tk/L+/5yBb7qBL6xwZ7DBAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="button4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAW
-        JQAAFiUBSVIk8AAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAI0SURBVDhPfZLd
-        S1NhHMfPX9FlYVYXZW3LtGW0JG9EM6RTZNHLDLqouwhB6ibs5aLEF4ajHIY2daNCKIkoMQYWyTRbWzqn
-        c7pjnnQdN9z0TPfSt2fnPI2dTfscvjfP8/19+PFwGGyBlauA1V+GzqkqDPIN9DSXTQV2wYi+n+exJLqx
-        Hhdh8pRBjIfprZK0YDk2hqFwBb6sVmJ07Ry+iZcxIrIw+fahd/4ons0V4KkvH2/4CxATITqVIXBE6vF1
-        rYYM6mlq4YjqYfYfg3W+VIqFJCXyRl7TqQzBrPgCgwKLD8IpDAjVcpar0T5VjA7vESmm6UN4yZ3GSoyj
-        UxmCRDJO1ruC534tuv06KT2cDs0uFVrHNVIaXXswsHCXTsgoHvFj4CZZWSutmkpq7ZYfahgmDkppdO3G
-        8FIbbcsoBLZA/X8Fj135cAQttC2TJbhDBIe3FDxy5mEmbKNtGYXg0+975A2KcwStkxo0e9V4OLkdfNRJ
-        2zIKgV0wEEGRQtDkUcHg0KDPUoInPXlY2eBpW0Yh+B4yo8tfmBb08sdhGNZg5lolsPMsnEwRptlb+BPd
-        oBNZgtlVGzrn1GlBl6DD0INS4MBFJEbqEGkoxyizCwu3jXQiS5DC6N0BM0f+Ba4EHSEtxi+dAFQ15OY+
-        4D4DO7MfPrZOLhNyBJ5wP94vXsfbX3r0B6/is6UWKGQRa7uBxSodxpi9CHa/o+1NBP9IJGNIki/FersV
-        YsFJuLeVI2B8JZ3JAH8BgINR1E+vqYsAAAAASUVORK5CYII=
-</value>
-  </data>
   <data name="button3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAW
@@ -196,4 +180,46 @@
         TkSuQmCC
 </value>
   </data>
+  <metadata name="masv.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="hoSV.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="tenSV.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="gioitinh.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="sinhNhat.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="diaChi.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="soCMT.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="sDT.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="email.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="anh.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="malophoc.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="trangThai.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="backgroundWorker1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
 </root>
